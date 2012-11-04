@@ -18,7 +18,7 @@ public class Global extends GlobalSettings {
     public static GraphDatabaseAPI graphDb;
     private static WrappingNeoServerBootstrapper srv;
 
-    private static String DB_PATH = "/usr/local/x/db";
+    private static String DB_PATH = "/usr/local/play2-neo-server/db";
 
     @Override
     public void onStart(Application app) {
